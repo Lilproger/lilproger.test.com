@@ -22,7 +22,7 @@ const path = {
   },
   watch: {
     html: 'src/pug/**/*.pug',
-    css: 'src/stylus/**/*.styl'
+    css: 'src/stylus/**/*.styl',
     js: 'src/js/**/*.js'
   }
 };
@@ -30,7 +30,7 @@ const path = {
 gulp.task('webserver', function() {
   browserSync.init({
     server: {
-      baseDir: 'dist/index.html'
+      baseDir: 'dist/'
     }
   })
   gulp.watch(path.watch.html, ['pug']);
@@ -55,7 +55,7 @@ gulp.task('pug', function(callback) {
 });
 
 gulp.task('stylus', function(callback) {
-  return gulp.task(path.src.css)
+  return gulp.src(path.src.css)
   .pipe(plumber({errorHandler: notify.onError(function(err) {
     return {
       title: 'STYLUS ERROR!!!',
