@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Vadim Savelyev",
   "license": "MIT",
+  "scripts": {
+    "es6": "babel src/js/ -d dist/js/ --presets es2015 -w"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
