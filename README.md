@@ -1,6 +1,6 @@
-h1 Index page
+# Index page
 ***
-h2 Front-end
+## Front-end
 ### 1.Index
 ### 2.Header
 ### 3.Main
@@ -8,7 +8,7 @@ h2 Front-end
 ### 5.Sidebar
 ### 6.Footer
 ***
-h2 Back-end
+## Back-end
 ### 1.Ajax
 ### 2.MongoDB
 ### 3.Localhost
