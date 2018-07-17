@@ -1,0 +1,11 @@
+{
+  "name": "lilproger.com",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Vadim Savelyev"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true
+}
